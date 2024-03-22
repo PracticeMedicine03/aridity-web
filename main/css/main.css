@@ -8,3 +8,44 @@ body {
     align-content: center;
     justify-content: center;
 }
+
+.center-left-right {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-actually {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+
+.navbar li {
+    float: left;
+}
+
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        .navbar li a:hover {
+            background-color: #111;
+        }
+
+        .navbar-content-active {
+            background-color: deepskyblue;
+        }
+        
